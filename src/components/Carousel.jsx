@@ -23,6 +23,11 @@ const Carousel = () => {
                 <SwiperSlide>
                     <img src={"../images/carousel_2.jpg"}/>
                 </SwiperSlide>
+                <SwiperSlide className="bg-black">
+                    <video controls muted="muted">
+                        <source src={"../images/carousel_vid.mp4"} type="video/mp4" />
+                    </video>
+                </SwiperSlide>
                 <SwiperSlide>
                     <img src={"../images/carousel_4.jpg"}/>
                 </SwiperSlide>
@@ -30,8 +35,8 @@ const Carousel = () => {
                     <img src={"../images/carousel_5.jpg"}/>
                 </SwiperSlide>
 
-
             </Swiper>
+            <div className="h-[50%] bg-gradient-to-b from-stone-900"/>
         </div>
     )
 }
