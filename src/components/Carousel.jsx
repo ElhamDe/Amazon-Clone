@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 
 import "swiper/css";
+import "swiper/css/navigation";
 
 const Carousel = () => {
     return (
@@ -8,6 +10,8 @@ const Carousel = () => {
             <Swiper
                 loop={true}
                 spaceBetween={0}
+                navigation={true}
+                modules={[]}
                 className="h-[50%]"
             >
                 <SwiperSlide>
