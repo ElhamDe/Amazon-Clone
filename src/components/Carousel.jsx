@@ -11,7 +11,7 @@ const Carousel = () => {
                 loop={true}
                 spaceBetween={0}
                 navigation={true}
-                modules={[]}
+                modules={[Navigation]}
                 className="h-[50%]"
             >
                 <SwiperSlide>
