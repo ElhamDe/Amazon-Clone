@@ -8,7 +8,7 @@ const config = {
     }
 };
 
-export const callApi = async (resource) => {
+export const callAPI = async (resource) => {
     const { data } = await axios.get(`${BASE_URL}/${resource}`, config);
     return data;
 }
